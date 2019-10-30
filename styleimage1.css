@@ -1,0 +1,82 @@
+/* IMAGES */
+*{box-sizing: border-box;
+}
+html {
+	background-color: white;
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	font-size: 16px;
+	font-weight: 400;	
+	margin: 0;
+	padding: 0.5em;
+	color: white;
+	background-color: slateblue;
+	min-height: 100vh;
+	line-height: 1.2;
+	background-image: url(https://images.unsplash.com/photo-1529503260202-4cb2b1677f0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+
+header {
+	padding: 0.5em;
+}
+
+header img {
+	width: 100%;
+}
+
+footer {
+	padding: 0.5em;
+	text-align: right;
+}
+
+figure {
+	margin: 0;
+	padding: 0.5em;
+	width: 25%
+}
+
+h1 {
+	position: fixed;
+    top: 0.5em;
+    left: -0.5em;
+    text-align: center;
+    font-size: 5em;
+    z-index: 0;
+    mix-blend-mode: color-dodge;
+    color: slateblue;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    transform: rotate(-90deg);
+}
+
+img {max-width: 100%;
+	height: auto;
+	filter: grayscale(1);
+	mix-blend-mode: screen;
+	transform: skewY(5deg);
+	transition: all 0.7s; 
+
+}
+
+   img:hover {filter: invert(1);
+	mix-blend-mode: unset;
+	transform: skewY(5deg);
+}
+	
+
+
+
+main { display: flex; 
+	flex-wrap: wrap;
+
+}
+
